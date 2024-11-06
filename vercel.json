@@ -6,6 +6,6 @@
         }
     ],
     "trailingSlash": false,
-    "buildCommand": "npm install -g vite && vite build",
+    "buildCommand": "npm run build",
     "outputDirectory": "dist"
 }
