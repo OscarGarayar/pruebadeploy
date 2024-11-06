@@ -5,9 +5,5 @@
             "destination": "/index.html"
         }
     ],
-    "trailingSlash": false,
-    "installCommand": "npm install",
-    "buildCommand": "next build"
-
-
+    "trailingSlash": false
 }
