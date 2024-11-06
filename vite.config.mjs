@@ -21,5 +21,11 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         }
     },
-    assetsInclude: ['**/*.html']
+    assetsInclude: ['**/*.html'],
+    rollupOptions: {
+        input: {
+            main: resolve(__dirname, 'index.html'),
+            nested: resolve(__dirname, 'mods/index.html')
+        }
+    }
 });
