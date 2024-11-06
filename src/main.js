@@ -12,7 +12,6 @@ import Dialog from 'primevue/dialog';
 import ConfirmDialog from 'primevue/confirmdialog';
 import FloatLabel from 'primevue/floatlabel';
 import InputNumber from 'primevue/inputnumber';
-import Dropdown from 'primevue/dropdown';
 import Tag from 'primevue/tag';
 import InputText from 'primevue/inputtext';
 import Card from "primevue/card";
@@ -43,15 +42,12 @@ app.component('pv-dialog', Dialog);
 app.component('pv-toolbar', Toolbar);
 app.component('pv-input-text', InputText);
 app.component('pv-input-number', InputNumber);
-app.component('pv-dropdown', Dropdown);
 app.component('pv-float-label', FloatLabel);
 app.component('pv-tag', Tag);
-
 app.component('pv-card', Card);
 app.component('pv-toolbar', Toolbar);
 app.component('pv-button', Button);
 app.component('pv-menubar', Menubar);
 app.component('pv-dataTable', DataTable);
 app.component('pv-column', Column);
-
 app.mount('#app');
