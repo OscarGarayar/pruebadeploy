@@ -6,7 +6,7 @@
         }
     ],
     "trailingSlash": false,
-    "buildCommand": "npx vite build"
+
 
 
 
