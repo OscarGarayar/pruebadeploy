@@ -5,9 +5,7 @@
             "destination": "/index.html"
         }
     ],
-    "trailingSlash": false
-
-
-
-
+    "trailingSlash": false,
+    "buildCommand": "npm install -g vite && vite build",
+    "outputDirectory": "dist"
 }
