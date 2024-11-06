@@ -6,6 +6,8 @@
         }
     ],
     "trailingSlash": false,
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist"
+    "installCommand": "npm install",
+    "buildCommand": "next build"
+
+
 }
